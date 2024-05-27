@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bug Tracker</title>
+      <link rel="stylesheet" href="./Style2.css">
+      <link rel="icon" type="image/png" href="/Assets/pngegg.png">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    </head>
+    
+    <body>
+      
+      <nav>
+        <div class="navbar navbar-expand-md navbar-dark bg-light">
+          
+          <div class="logo"><a href="#"><h3>Bug Tracking App.</h3></a></div>
+          <ul class="menu">
+        <button onclick="showCreateProjectForm()" class="btn btn-danger">Create Project</button>
+        <button onclick="showCreatePeopleForm()" class="btn btn-danger">Create People</button>
+        <button onclick="showCreateIssueForm()" class="btn btn-danger" >Create Issue</button>
+        <button onclick="viewAllIssues()" class="btn btn-danger" >View all issues</button>
+        <button onclick="viewPeople()" class="btn btn-danger">View People</button>
+            <div class="cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+          </ul>
+        </div>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+  
+    
+      <div id="content"></div>
+    
+      <script src="script.js"></script>
+
+    </body>
+    
+    </html>
+    
+  
+  
